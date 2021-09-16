@@ -2,7 +2,7 @@
 A smart shop app made using react native. This app helps you to track and spend on daily essentials wisely.
 
 
-# Steps i followed :
+# Steps i followed b4 being to run react-native native scripts:
 - install React-Native CLI
 - install some packages like : jdk8. i already had node installed. make sure to install node , if you do not have already.
 - install Android Studio (for the Android Virtual Device bridge)
