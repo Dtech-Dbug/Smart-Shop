@@ -13,9 +13,10 @@ import List from './components/cartItems';
 import Footer from './components/footer';
 
 const App = () => {
+  const totalPrice = (price, qty) => price * qty;
   const [text, setText] = useState([
-    {id: 1, title: 'Maggi', qty: 3, price: 12},
-    {id: 2, title: 'Yippee', qty: 4, price: 12},
+    {id: 1, title: 'Maggi', qty: 3, price: 12, total: totalPrice(12, 3)},
+    {id: 2, title: 'Yippee', qty: 4, price: 14, total: totalPrice(14, 4)},
   ]);
   return (
     <View style={styles.container}>
