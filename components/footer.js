@@ -1,10 +1,12 @@
 import React from 'react';
 import {Text, View, TouchableOpacity, StyleSheet} from 'react-native';
+import {Icon} from 'react-native-vector-icons/dist/FontAwesome';
 
 const Footer = () => {
   return (
     <View style={styles.footer}>
       <Text style={styles.listText}>Try</Text>
+      <Icon size={30} color="white" name="remove" />
     </View>
   );
 };
