@@ -1,6 +1,5 @@
 import React from 'react';
 import {View, Text, TouchableOpacity, FlatList, StyleSheet} from 'react-native';
-import Icon from 'react-native-vector-icons/dist/FontAwesome';
 
 const List = ({item}) => {
   return (
@@ -11,9 +10,7 @@ const List = ({item}) => {
         <Text style={styles.listItemText}> {item.qty} </Text>
         <Text style={styles.listItemText}> {item.price} </Text>
         <Text style={styles.listItemText}> {item.total} </Text>
-        <Text>
-          <Icon name="remove" size={20} color="firebrick" />
-        </Text>
+        <Text></Text>
       </View>
     </TouchableOpacity>
   );
@@ -39,7 +36,7 @@ const styles = StyleSheet.create({
   },
   listItemTextAfterSerialnumber: {
     color: 'yellow',
-    marginLeft: -50,
+    marginLeft: -30,
   },
 });
 export default List;
