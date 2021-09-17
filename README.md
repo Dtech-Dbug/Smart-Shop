@@ -12,3 +12,6 @@ A smart shop app made using react native. This app helps you to track and spend 
 **📃 the docs are super helpful and minutely crafted for every developer regardless of previous app dev exp**
 
 [📚 check out the official react native docs here](https://reactnative.dev/)
+
+## Navigation in React-Native using React-Navigation : 
+- ``` npm install @react-navigation/native @react-navigation/native-stack ```
