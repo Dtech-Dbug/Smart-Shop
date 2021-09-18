@@ -14,6 +14,5 @@ A smart shop app made using react native. This app helps you to track and spend 
 [📚 check out the official react native docs here](https://reactnative.dev/)
 
 ## Navigation in React-Native using React-Navigation : 
-- ``` npm install @react-navigation/native @react-navigation/native-stack ```
-- install the peer deps : ``` npm install react-native-screens react-native-safe-area-context ```
-- import and wrap the enite code in the entry point (index.js | app.js) within the NavigationContainer component ``` import { NavigationContainer } from '@react-navigation/native' ```
+- [React Native Docs 📚](https://reactnative.dev/docs/navigation)
+**the doc is very well crafted and easy to follow along, even if you are absolute beginner 🤓**
